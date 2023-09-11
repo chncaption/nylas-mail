@@ -19,7 +19,7 @@
     "promise.prototype.finally": "1.0.1",
     "rx-lite": "4.0.8",
     "sequelize": "3.28.0",
-    "underscore": "1.8.3",
+    "underscore": "1.13.6",
     "xoauth2": "1.2.0",
     "he": "1.1.0",
     "iconv": "2.2.1",
