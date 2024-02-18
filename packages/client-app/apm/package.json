@@ -6,6 +6,6 @@
     "url": "https://github.com/nylas/nylas-mail"
   },
   "dependencies": {
-    "atom-package-manager": "1.1.1"
+    "atom-package-manager": "2.1.5"
   }
 }
