@@ -109,7 +109,8 @@
     "underscore": "1.8.x",
     "underscore.string": "^3.0",
     "vision": "4.1.0",
-    "windows-shortcuts": "emorikawa/windows-shortcuts#b0a0fc7"
+    "windows-shortcuts": "emorikawa/windows-shortcuts#b0a0fc7",
+    "@snyk/protect": "latest"
   },
   "devDependencies": {
     "donna": "^1.0.15",
@@ -135,6 +136,9 @@
     "test-junit": "electron . --test --enable-logging --junit-xml=junitxml",
     "start": "electron . --dev --enable-logging",
     "lint": "script/grunt lint",
-    "build": "script/grunt build"
-  }
+    "build": "script/grunt build",
+    "prepublish": "npm run snyk-protect",
+    "snyk-protect": "snyk-protect"
+  },
+  "snyk": true
 }
