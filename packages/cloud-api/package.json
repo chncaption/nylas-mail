@@ -30,7 +30,7 @@
     "jasmine": "2.5.3",
     "joi": "8.4.2",
     "js-base64": "2.1.9",
-    "libhoney": "1.0.0-beta.2",
+    "libhoney": "4.3.0",
     "moment": "2.x.x",
     "moment-round": "1.x.x",
     "moment-timezone": "0.5.x",
