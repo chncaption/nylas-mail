@@ -30,8 +30,8 @@
     "coffeestack": "^1.1",
     "color": "^0.7.3",
     "debug": "github:emorikawa/debug#nylas",
-    "electron": "1.4.15",
-    "electron-spellchecker": "1.0.1",
+    "electron": "7.0.0",
+    "electron-spellchecker": "2.0.0",
     "emissary": "^1.3.1",
     "emoji-data": "^0.2.0",
     "encoding": "0.1.12",
@@ -109,7 +109,8 @@
     "underscore": "1.8.x",
     "underscore.string": "^3.0",
     "vision": "4.1.0",
-    "windows-shortcuts": "emorikawa/windows-shortcuts#b0a0fc7"
+    "windows-shortcuts": "emorikawa/windows-shortcuts#b0a0fc7",
+    "@snyk/protect": "latest"
   },
   "devDependencies": {
     "donna": "^1.0.15",
@@ -135,6 +136,9 @@
     "test-junit": "electron . --test --enable-logging --junit-xml=junitxml",
     "start": "electron . --dev --enable-logging",
     "lint": "script/grunt lint",
-    "build": "script/grunt build"
-  }
+    "build": "script/grunt build",
+    "prepublish": "npm run snyk-protect",
+    "snyk-protect": "snyk-protect"
+  },
+  "snyk": true
 }
