@@ -4,7 +4,9 @@
   "description": "Packages use isomorphically on n1-cloud and client-sync",
   "main": "index.js",
   "scripts": {
-    "test": "babel-node spec/run.es6"
+    "test": "babel-node spec/run.es6",
+    "prepublish": "npm run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "dependencies": {
     "atob": "2.0.3",
@@ -14,7 +16,7 @@
     "jasmine": "2.x.x",
     "joi": "8.4.2",
     "libhoney": "1.0.0-beta.2",
-    "nodemailer": "2.5.0",
+    "nodemailer": "4.0.1",
     "promise-props": "1.0.0",
     "promise.prototype.finally": "1.0.1",
     "rx-lite": "4.0.8",
@@ -23,8 +25,10 @@
     "xoauth2": "1.2.0",
     "he": "1.1.0",
     "iconv": "2.2.1",
-    "mimelib": "0.2.19"
+    "mimelib": "0.2.19",
+    "@snyk/protect": "latest"
   },
   "author": "Nylas",
-  "license": "ISC"
+  "license": "ISC",
+  "snyk": true
 }
