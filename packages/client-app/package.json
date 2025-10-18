@@ -47,7 +47,7 @@
     "hapi-auth-basic": "^4.2.0",
     "hapi-boom-decorators": "2.2.2",
     "hapi-plugin-websocket": "^0.9.2",
-    "hapi-swagger": "7.6.0",
+    "hapi-swagger": "17.0.0",
     "he": "1.1.0",
     "iconv": "2.2.1",
     "immutable": "3.7.5",
