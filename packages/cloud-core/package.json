@@ -7,7 +7,7 @@
     "aws-sdk": "2.25.0",
     "bunyan": "1.8.0",
     "bunyan-prettystream": "github:emorikawa/node-bunyan-prettystream",
-    "googleapis": "9.0.0",
+    "googleapis": "16.0.0",
     "isomorphic-core": "0.x.x",
     "mysql": "2.12.0",
     "promise-props": "1.0.0",
